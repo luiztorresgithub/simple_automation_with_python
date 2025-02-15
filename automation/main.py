@@ -37,7 +37,7 @@ def make_chrome_browser(*options: str) -> webdriver.Chrome:
 
 
 if __name__ == '__main__': #type: ignore
-    TIME_TO_WAIT = 10
+    TIME_TO_WAIT = 20
 
     options = ()
     browser = make_chrome_browser(*options)
